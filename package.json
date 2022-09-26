@@ -27,7 +27,6 @@
   "jest": {
     "testEnvironment": "node"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jeffrey-S-Smith/basic-auth.git"
