@@ -29,7 +29,7 @@ async function signup(req, res) {
 }
 
 async function signin(req, res) {
-  res.status(200).send('You Gucci');
+  res.status(200).send('You in');
 }
 
 async function getUsers(req, res, next) {
