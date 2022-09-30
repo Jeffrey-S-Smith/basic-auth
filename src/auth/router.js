@@ -3,9 +3,9 @@
 const express = require('express');
 const bcrypt = require('bcrypt');
 const { Users } = require('./models');
-const basicAuthentication = require('./middleware/basic');
-const err404 = require('../middleware/404');
-const err500 = require('../middleware/500');
+const basicAuthentication = require('../middleware/basic.js');
+const err404 = require('../auth/middleware/404.js');
+const err500 = require('../auth/middleware/500.js');
 
 const router = express.Router();
 

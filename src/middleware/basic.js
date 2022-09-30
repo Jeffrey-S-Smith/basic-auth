@@ -1,6 +1,6 @@
 'use strict';
 
-const Users = require('../models');
+const Users = require('../auth/models/users-models.js');
 const bcrypt = require('bcrypt');
 const base64 = require('base-64');
 
